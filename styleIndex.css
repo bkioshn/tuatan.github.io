@@ -1,0 +1,9 @@
+header #logo{
+    height: 1em;
+    margin-bottom:10px;
+}
+
+header #navRight img{
+    height: 1em;
+    padding-left: 1em;
+}

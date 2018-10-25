@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Finding Agency">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Blue Chotivichit">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- import boostrap and jquery-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+    <!-- import slick -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" media="screen" href="styleIndex.css" /> 
+
+
+    <title>Tuatan.com</title>
+</head>
+
+<body>
+    <header>
+        
+        <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
+            <a class="navbar-brand" href="#"> <img src="C:\Users\shinj\OneDrive\เอกสาร\JS\job-finding\header\1.png" id="logo"> </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><img src="C:\Users\shinj\OneDrive\เอกสาร\JS\job-finding\header\2.png" style="height:1.4em"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><img src="C:\Users\shinj\OneDrive\เอกสาร\JS\job-finding\header\3.png" style="height:1.5em"></a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="#"><img src="C:\Users\shinj\OneDrive\เอกสาร\JS\job-finding\header\4.png" style="height:1.5em"></a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="#"><img src="C:\Users\shinj\OneDrive\เอกสาร\JS\job-finding\header\5.png" style="height:1.5em"></a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">ค้นหา</button>
+
+                    <ul class="navbar-nav mr-auto" id="navRight">
+                        <li class="nav-item">
+                            <img src="C:\Users\shinj\OneDrive\เอกสาร\JS\job-finding\header\8.png">
+                        </li>
+                        <li class="nav-item">
+                            <img src="C:\Users\shinj\OneDrive\เอกสาร\JS\job-finding\header\9.png">
+                        </li>
+                        <li class="nav-item">
+                            <img src="C:\Users\shinj\OneDrive\เอกสาร\JS\job-finding\header\10.png">
+                        </li>
+
+                    </ul>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <br>
+    <div class="slideshow">
+        <div><img src="https://image.freepik.com/free-vector/luxury-letter-e-logo-design_1017-8903.jpg"></div>
+        <div><img src="C:\Users\shinj\OneDrive\เอกสาร\JS\job-finding\header\11.png" style="height:15em"></div>
+        <div><img src="C:\Users\shinj\OneDrive\เอกสาร\JS\job-finding\header\11.png"></div>
+    </div>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.3.11/slick.min.js"></script>
+
+
+    <script type="text/javascript">
+        $(document).ready(function(){       
+            $('.fade').slick({
+                dots: true,
+                infinite: true,
+                speed: 700,
+                autoplay:true,
+                autoplaySpeed: 2000,
+                arrows:false,
+                slidesToShow: 1,
+                slidesToScroll: 1
+            });
+                
+        });
+    </script>
+
+
+</body>
+</html>
