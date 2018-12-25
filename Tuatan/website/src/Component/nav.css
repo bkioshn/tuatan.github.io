@@ -1,0 +1,21 @@
+#logo {
+	height: 1em;
+	margin-bottom: 10px;
+}
+
+#navRight ul {
+	display: inline-block;
+}
+
+#top10logo {
+	height: 2.5em;
+}
+
+#toggleIcon {
+	height: 1.6em;
+}
+
+#navRight img {
+	height: 1em;
+	padding-left: 1em;
+}

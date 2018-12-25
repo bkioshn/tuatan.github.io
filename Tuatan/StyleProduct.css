@@ -1,0 +1,242 @@
+.seperator{
+    background:orange;
+    width:100%;
+    height:80px;
+}
+
+#product #pText1{
+    font-size: 1.4em
+}
+
+
+#catTag img{
+    height: 1em;
+}
+
+#badge img{
+    height: 1.8em;
+    margin: auto;    
+    display: block;
+}
+
+#badge{
+    margin-top:1em;
+    background-color: rgba(239, 239, 255, 0.945);
+}
+#iconProduct{
+    margin-top:1em;
+}
+
+#iconProduct .icon{
+    float:right;
+}
+
+#iconProduct img, #iconP img{
+    height: 2em;
+    float:right;
+}
+
+.line{
+    height: 3px;
+    background: rgba(209, 208, 208, 0.609);
+    margin:1.5em;
+    width:70%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#vdo{
+    width:70%;
+    margin:1.5em auto;
+}
+
+#con #readMore{
+    height:1.2em;
+    float:right;
+}
+
+.allP #pIcon img{
+    height:1.2em;
+    float: right;
+    padding-right:5px;
+    margin-top:5px;
+}
+
+.allP .card-body{
+    padding:0;
+}
+
+.allP .pContent{
+    padding:1em;
+    background-color: rgba(225, 240, 255, 0.383);
+    padding-bottom:0.2em;
+}
+
+.allP .pText{
+    font-size: 0.7em;
+    margin:0;
+}
+
+.allP .tagP img{
+    height:1em;
+}
+
+.allP .tagP .col-auto{
+    padding:5px;
+}
+
+.allP .iconP{
+    height:0.7em;
+    float: right;
+}
+
+#iconP .icon{
+    height:1em;
+}
+
+
+@media screen and (max-width: 992px) {
+    #productContText p{
+        font-size: 0.8em;
+        margin-bottom:0;
+    }
+
+    #catTag .col-auto{
+        padding: 0 1px;
+    }
+
+    #product #pText1{
+        font-size: 1.3em;
+    }
+
+    #product #announcement p{
+        font-size: 0.5em;
+    }
+
+    #badge{
+        margin-top:2px;
+    }
+
+    #product #badge img{
+        height: 1.2em;
+    }
+
+    #product #iconProduct .icon{
+        height: 0.8em;
+    }
+
+    #product #iconProduct p{
+        font-size:0.3em;
+    }
+    #product #productContText p #check {
+        height: 1.2em;
+    }
+
+    #product #iconProduct img{
+        height: 1.5em;
+    }
+
+    .allP #pIcon img{
+        float:none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #product .carousel-item img{
+        height:400px;
+    }
+
+    #product #productContText{
+        margin-top:0.5em;
+    }
+
+    .allP .interest{
+        margin-top:1em;
+    }
+
+    .allP #pIcon img{
+        float:none;
+        margin-top:0;
+    }
+
+    .allP #pIcon{
+        padding-left:40px;
+    }
+    
+    .allP .pContent .name{
+        margin-bottom:0;
+    }
+
+    .allP .pContent .tagP img{
+        height: 0.8em;
+    }
+    #iconP .icon{
+        height:0.8em;
+    }
+
+    #iconP img{
+      height: 1.5em;
+    }
+
+
+}
+
+@media screen and (max-width:576px){
+    #product .carousel-item img{
+        height:300px;
+    }
+
+    #product #pText1{
+        font-size: 1em;
+    }
+
+    #product #announcement .col-auto{
+        padding-right:0px;
+    }
+    #product #announcement p{
+        font-size: 0.3em;
+    }
+
+    #product #catTag img{
+        height:0.8em;
+    }
+
+    #product #iconProduct{
+        margin-top:1em;
+    }
+
+    #product .row #badge{
+        margin-top:15px;
+    }
+
+    #product .row{
+        margin:auto;
+    }
+
+    #description p{
+        font-size: 0.8em;
+        margin-bottom:0;
+    }
+
+    #con{
+        margin-top:1em;
+    }
+
+    #con h6, #con p{
+        font-size:0.7em;
+    }
+
+    #con #readMore{
+        height: 0.8em;
+    }
+
+
+
+    .allP .pContent p img{
+        height: 0.8em;
+    }
+
+
+    
+    
+}
