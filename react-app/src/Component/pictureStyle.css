@@ -1,0 +1,53 @@
+.box {
+    margin-right:0.5em;
+    margin-top: 1em;
+    height: 10em;
+    width: 10em;
+    border: 1px solid grey;
+    display: block;
+    text-align: center;
+    position: relative;
+}
+
+.box img {
+    max-width: 100%;
+    max-height: 80%;
+    align-content: center;
+}
+
+.box .icon {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+.box .text {
+    background-color: rgb(114, 156, 114);
+    color: white;
+    height: 20%;
+}
+
+.boxAdd {
+    margin-right: 0.5em;
+    margin-top: 1em;
+    height: 10em;
+    width: 10em;
+    border: 1px dashed grey;
+    display: block;
+    text-align: center;
+    position: relative;
+    background-color: rgb(243, 241, 241);
+}
+
+.boxAdd .add {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.boxAdd .add p {
+    font-size: 0.5em;
+}
+
+

@@ -1,0 +1,30 @@
+#infoDiv {
+    margin-top: 2em;
+}
+
+#form {
+    display: grid;
+    grid-template-columns: 10% 15% 50% 10% 10%;
+    grid-row-gap: 1em;
+}
+
+.info {
+    font-size: 0.8em;
+    color: grey;
+    margin-right: 1em;
+    grid-column-start: 2;
+}
+
+.count {
+    margin-left: 1em;
+}
+
+.button {
+    margin-top: 1em;
+    margin-right: 1em;
+}
+
+#select {
+    width: 100%;
+}
+
